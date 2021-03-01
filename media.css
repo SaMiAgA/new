@@ -1,0 +1,231 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+    .grandrestaurant{
+    max-width: 970px;
+ 
+}
+.container_our{
+    max-width: 970px;
+    display: flex; 
+    justify-content: column;
+}
+
+.container_footer{ 
+     max-width: 970px;
+}
+  .container{
+    max-width:970px;
+
+ }
+
+ .header_text h1{
+    font-family: "Proxima Nova Th";
+    font-size:50px;
+}
+.header_text p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.our_right h1{
+    font-size: 40px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.our_right p{
+    font-size: 14px;
+   
+    
+}
+.menu_lorem p{
+    font-size: 12px;
+}
+.our_left img{
+  margin-left: 100px;
+}
+.container_singatures h1{
+    font-size: 40px;
+    line-height: 20px;
+ }
+.container_singatures .lorem{
+    font-size: 14px;
+    line-height: 20px;
+   
+}
+.name_menu h1{
+    font-size: 14px;
+}
+.title_menu h1{
+    font-size: 40px;
+
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .header_logo span{
+    font-size: 20px;
+    
+   }
+   .our_left img{
+    width: 245px;
+    height:220px;
+
+   }
+   .header_nav li{
+   
+   display:inline;
+   margin-left: 15px;
+    }
+   .header_nav li a{
+   font-size:14px;
+    }
+    .header_nav{
+    padding-left: 170px;
+   visibility: hidden;
+    }
+    
+    .header_nav.active{
+    
+     visibility: visible;
+     
+    }
+   
+    .header_nav{
+    position: absolute;
+    top:100px;
+    margin:auto;
+}
+
+.burger_menu{
+    cursor: pointer;
+    display:block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+}
+.burger_menu:before,
+.burger_menu:after{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left:0;
+
+
+}
+.burger_menu:before{
+    top:0;
+}
+.burger_menu:after {
+    bottom: 0;
+}
+.burger_menu span{
+    position:absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    left:0;
+    top:9px;
+}
+.burger_menu.active:before{
+    transform: rotate(45deg);
+}
+.burger_menu.active:after{
+    transform: rotate(-45deg);
+    bottom:17px;
+}
+.burger_menu.active span{
+    transform:scale(0);
+}
+    .grandrestaurant{
+    background-size: 992px 900px;
+ 
+}
+
+.container_footer{ 
+     max-width: 750px;
+}
+     .container{
+    max-width:750px;
+ } 
+ .container_our{
+     max-width:750px;
+ }
+  .header_text h1{
+        font-size: 50px;
+
+    }
+    .container_our{
+    	margin:auto;
+    display: flex;
+    flex-direction: column;
+}
+.our_left{
+	margin:auto;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .header_nav li{
+   
+   display:block;
+  
+    }
+ .container{
+
+    max-width:none;
+ }
+ .container_our{
+     max-width:none;
+ }
+
+ .container_footer{ 
+     max-width: none;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
